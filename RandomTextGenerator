@@ -1,0 +1,11 @@
+function generate(count) {
+    for (let i = 0; i < count; i++) {
+        //Make random generate code
+        RandomValue = Math.random().toString(16).slice(-4) + "-" + Math.random().toString(16).slice(-4);
+        //Print random value to console
+        console.log(RandomValue);
+        //Store or save random value in variable
+        result = RandomValue;
+        console.log("Hasil = " + result);
+    }
+}
